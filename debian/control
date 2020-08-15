@@ -1,0 +1,12 @@
+Source: pinebookpro-audio
+Section: sound
+Priority: optional
+Maintainer: David Hewitt <davidmhewitt@gmail.com>
+Build-Depends: debhelper (>= 10.5.1)
+Standards-Version: 4.1.1
+
+Package: pinebookpro-audio
+Architecture: arm64
+Depends: acpid
+Description: Audio jack detection for Pinebook Pro
+  Automatically switches off the speakers when headphones are connected

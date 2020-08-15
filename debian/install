@@ -1,0 +1,4 @@
+audio_jack_plugged_in /etc/acpi/events/
+audio_jack_plugged_in.sh /etc/acpi/
+pinebookpro-audio.service /lib/systemd/system/
+pinebookpro-audio-sync.sh /usr/bin/
